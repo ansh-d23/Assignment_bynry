@@ -73,7 +73,7 @@ const ProfileForm = ({ onSubmit, profile, closeModal }) => {
           />
         </div>
         <div className="form-group">
-          <label>Description</label>
+          <label>About yourself!</label>
           <textarea
             name="description"
             value={formData.description}
@@ -111,17 +111,9 @@ const ProfileForm = ({ onSubmit, profile, closeModal }) => {
             required
           />
         </div>
+      
         <div className="form-group">
-          <label>Interests</label>
-          <textarea
-            name="interests"
-            value={formData.interests}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Upload Profile Image</label>
+          <label>Upload Image</label>
           <input
             type="file"
             name="imageFile"
@@ -132,7 +124,7 @@ const ProfileForm = ({ onSubmit, profile, closeModal }) => {
         {imagePreview && (
           <div className="image-preview">
             <img src={imagePreview} alt="Profile Preview" />
-            <p>Uploaded profile image</p>
+            <p>Uploaded image</p>
           </div>
         )}
         <div className="form-actions">

@@ -1,4 +1,3 @@
-/* Layout */
 .profile-details-container {
     display: flex;
     align-items: center;
@@ -7,7 +6,6 @@
     background: #f8fff0;
   }
   
-  /* Profile Card */
   .profile-card {
     background: white;
     padding: 20px;
@@ -16,8 +14,7 @@
     text-align: center;
     width: 350px;
   }
-  
-  /* Profile Picture */
+
   .profile-picture {
     width: 120px;
     height: 120px;
@@ -26,8 +23,7 @@
     border: 4px solid #b7e4c7;
     margin-bottom: 10px;
   }
-  
-  /* Profile Name & Email */
+
   .profile-name {
     font-size: 22px;
     font-weight: bold;
@@ -39,14 +35,12 @@
     color: #40916c;
   }
   
-  /* Info */
   .profile-info {
     font-size: 14px;
     color: #333;
     margin-bottom: 8px;
   }
   
-  /* Contact Button */
   .contact-button {
     background: #40916c;
     color: white;

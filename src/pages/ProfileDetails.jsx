@@ -28,7 +28,7 @@ const ProfileDetails = () => {
     }
   }, [id]);
 
-  if (loading) return <div className="loading">Loading profile details...</div>;
+  if (loading) return <div className="loading">Loading details...</div>;
   if (error) return <div className="error">{error}</div>;
 
   return (

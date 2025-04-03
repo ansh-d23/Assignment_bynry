@@ -102,7 +102,7 @@ const ProfileList = () => {
                 <th>Profile Image</th>
                 <th>Name</th>
                 <th>Email</th>
-                <th>Description</th>
+                <th>About</th>
                 <th>Address</th>
                 <th>Actions</th>
               </tr>
@@ -120,7 +120,7 @@ const ProfileList = () => {
                   <td>{profile.address}</td>
                   <td>
                     <button className="summary-button" onClick={() => viewProfileDetails(profile)}>
-                      Summary
+                      Locate
                     </button>
                   </td>
                 </tr>

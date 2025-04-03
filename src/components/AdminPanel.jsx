@@ -153,7 +153,7 @@ const AdminPanel = () => {
                     <thead>
                         <tr>
                             <th>Sr No.</th>
-                            <th>Profile Img</th>
+                            <th>Profile Pic</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Description</th>
@@ -176,7 +176,7 @@ const AdminPanel = () => {
                                     <button className="edit-btn" onClick={() => openModal(profile)}>Edit</button>
                                     <button className="delete-btn" onClick={() => confirmDeleteProfile(profile)}>Delete</button>
                                     <button className="summary-btn" onClick={() => viewProfileDetails(profile)}>
-                                        Summary
+                                        Locate
                                     </button>
                                 </td>
                             </tr>
@@ -189,7 +189,7 @@ const AdminPanel = () => {
             {mapVisible && (
                 <div className="map-modal">
                     <div className="map-modal-content">
-                        <button className="close-map-btn" onClick={handleCloseMap}>Close Map</button>
+                        <button className="close-map-btn" onClick={handleCloseMap}>Close</button>
                         <h2>{selectedProfile.name.split(" ")[0]}'s Location</h2>
                         <div id="map" className="map-container"></div>
                     </div>
