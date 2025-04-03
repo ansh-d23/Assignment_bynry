@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fdf4;
+    color: #1b5e20;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-button, .view-profile-button, .summary-button {
+    background-color: #40916c;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin : 10px;
+  }
+  
+  .admin-button:hover, .view-profile-button:hover, .summary-button:hover {
+    background-color: #2d6a4f;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .profile-table th, .profile-table td {
+    border: 1px solid #c8e6c9;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .profile-table th {
+    background-color: #a5d6a7;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .summary-button {
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .summary-button:hover {
+    background-color: #43a047;
+  }
+  
+  .map-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .map-container {
+    width: 70%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .close-map {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .close-map:hover {
+    background-color: #c62828;
+  }
+  
+  .map {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .profile-table th, .profile-table td {
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+    .profile-image {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .search-input {
+      font-size: 14px;
+    }
+  
+    .summary-button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-table th, .profile-table td {
+      font-size: 10px;
+    }
+  
+    .profile-image {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .summary-button {
+      padding: 3px 6px;
+      font-size: 10px;
+    }
+  }
+  
